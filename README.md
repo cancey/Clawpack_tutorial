@@ -3,5 +3,5 @@ This repository contains all the files used in my introduction to [Clawpack](htt
 
 1. Hyperbolic equation theory
 2. Introduction to Clawpack
-3. Linear advection
-4. Burgers' equation
+4. Linear advection
+5. Burgers' equation
