@@ -24,7 +24,7 @@ subroutine src1(meqn,mbc,mx,xlower,dx,q,maux,aux,t,dt)
     integer :: info
 
 
-	order = 3
+	 
     select case(method)
 		case(1)
 			do i=1,mx
