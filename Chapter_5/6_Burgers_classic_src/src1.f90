@@ -16,6 +16,7 @@ subroutine src1(meqn,mbc,mx,xlower,dx,q,maux,aux,t,dt)
     double precision,  intent(inout) :: aux(maux,1-mbc:mx+mbc)
 
     double precision :: mu, xlim, a
+    integer :: order
     common /comsrc/ mu, xlim, a
 
 
