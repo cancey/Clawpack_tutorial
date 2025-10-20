@@ -40,6 +40,7 @@ def setrun(claw_pkg='classic'):
     probdata.add_param('mu', 5,  'viscosity')
     probdata.add_param('xlim', 1.,  'box end')
     probdata.add_param('a', 1.,  'a coef')
+    probdata.add_param('order', 1,  'order source term')
     
     #------------------------------------------------------------------
     # Standard Clawpack parameters to be written to claw.data:

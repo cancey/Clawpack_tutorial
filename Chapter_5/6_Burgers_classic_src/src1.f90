@@ -8,7 +8,7 @@ subroutine src1(meqn,mbc,mx,xlower,dx,q,maux,aux,t,dt)
     double precision, intent(in) :: xlower,dx,t,dt
 
     !local
-    integer :: i, method
+    integer :: i, order
 
 
     ! Output
@@ -17,9 +17,9 @@ subroutine src1(meqn,mbc,mx,xlower,dx,q,maux,aux,t,dt)
 
     double precision :: mu, xlim, a
     common /comsrc/ mu, xlim, a
+    common /comsrcorder/ order
 
-
-	method = 1
+ 
     select case(order)
 		case(1)
 			do i=1,mx
