@@ -2,6 +2,7 @@
 
 Run the code:
 
+    make .data
     make .plots
 
 The figures are placed in the _plots directory
